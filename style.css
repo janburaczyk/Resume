@@ -1,6 +1,23 @@
 h1 {
-margin: 150px;
+margin: 50px;
 }
-body { 
+img {
+  width: 350px;
+}
+body {
+  list-style-position: inside; 
   text-align: center;
+}
+button{
+  width:50px;
+  height:20px;
+}
+.ukryty{
+  display: none;
+}
+.naglowek{
+display: flex;
+justify-content:center;
+align-items: center;
+gap: 15px;
 }

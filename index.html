@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
@@ -7,26 +7,36 @@
   </head>
   <body>
     <h1>Portfolio</h1>
-    <h2>O mnie</h2>
-    <p>Cześć, uczę się full-stack developmentu, a to jest mój pierwszy projekt.</p>
-    <h2>Umiejętności</h2>
-    <h3>Modelowanie i wizualizacja 3D</h3>
-      <ul> 
-        <li>Rhino:modelowanie otoczenia inwestycji (ulice, teren, budynki, zieleń, infrastruktura), wdrażanie i szkolenie innych</li> 
-        <li>Blender: modelowanie, teksturowanie i rendering, wizualizacje produktowe</li> 
-      </ul>
-    <h3>Automatyzacja i skrypty</h3>
+    <img src="img/avatar.jpg" alt="Jan Buraczyk's profile picture">
+    <div class="naglowek">
+      <h2>About me</h2>
+      <button onclick="rozwin(this)">Expand</button>
+    </div>
+    <p id="opis" class="ukryty">Hi, I'm learning full-stack development, and this is my first project.</p>
+    <div class="naglowek">
+      <h2>Skills</h2>
+      <button onclick="rozwin(this)">Expand</button>
+    </div>
+    <div class="ukryty">
+      <h3>3D Modeling and Visualization</h3>
       <ul>
-        <li>Grasshopper: automatyczne rozmieszczanie bloków na meshu</li> 
+        <li>Rhino: modeling the surroundings of development projects (streets, terrain, buildings, greenery, infrastructure), onboarding and training others</li>
+        <li>Blender: modeling, texturing and rendering, product visualization</li>
       </ul>
-    <h3>Projektowanie i grafika</h3>
+      <h3>Automation and Scripting</h3>
       <ul>
-        <li>Revit: dokumentacja projektowa</li> 
+        <li>Grasshopper: automatic placement of blocks on a mesh</li>
+      </ul>
+      <h3>Design and Graphics</h3>
+      <ul>
+        <li>Revit: architectural design documentation</li>
         <li>Photoshop</li>
       </ul>
-    <h3>Web (w trakcie nauki)</h3>
+      <h3>Web (currently learning)</h3>
       <ul>
-        <li>HTML, CSS, JavaScript, Git/GitHub></li>
+        <li>HTML, CSS, JavaScript, Git / GitHub</li>
       </ul>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,2 +1,2 @@
-# Resume
-A simple personal portfolio page built with HTML and CSS
+# portfolio
+Prosta strona-wizytówka w HTML i CSS
